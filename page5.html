@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="flex items-center justify-center min-h-screen bg-gray-100 ">
+        <div class="bg-white rounded-lg shadow-lg p-6 max-w-md w-full ">
+            <div class="flex justify-between items-center mb-12">
+                <span class="text-gray-500">9:41</span>
+                <div class="flex justify-center">
+                    <!-- Font Awesome Icons -->
+                    <i class="fas fa-signal mr-2"></i> <!-- Cellular Connection Icon -->
+                    <i class="fas fa-wifi mr-2"></i> <!-- WiFi Icon -->
+                    <i class="fas fa-battery-full"></i> <!-- Battery Icon -->
+                </div>
+            </div>
+
+            <div class="flex flex-col flex-start ">
+                <h2 class="text-xl font-montserrat font-semibold  text-left text-center text-20 w-219 h-12">What are your goals?</h2>
+            </div>
+
+            <div class="flex flex-col space-y-4 mb-32">
+                <div class="flex justify-between  items-center  w-50 h-12 rounded-2xl  bg-gray-200 ">
+                    <label for="weight-loss" class="w-18 h-4   text-xs font-semibold leading-3 font-montserrat text-left px-4 ml-2">Weight Loss</label>
+
+                    <input type="checkbox" class="  form-checkbox w-5 h-5 rounded-tl-xl  mr-4 " id="weight-loss" />
+                    
+
+
+                </div>
+                <div class="flex justify-between  items-center  w-50 h-12  rounded-2xl bg-gray-200 ">
+                  <label for="muscle-gain" class="w-18 h-4   text-xs font-semibold leading-3 font-montserrat text-left px-4 ml-2">Muscle Gain</label>
+                  <input type="checkbox" class=" form-checkbox w-5 h-5 rounded-tl-xl  mr-4" id="muscle-gain" />
+
+                </div>
+                <div class="flex justify-between  items-center  w-50 h-12 rounded-2xl bg-gray-200 ">
+                  <label for="flexibility-mobility" class="w-18 h-4   text-xs font-semibold leading-3 font-montserrat text-left px-4 ml-2">Flexibility and Mobility</label>
+                  <input type="checkbox" class="  form-checkbox w-5 h-5 rounded-tl-xl  mr-4" id="flexibility-mobility" />
+
+                </div>
+                <div class="flex justify-between  items-center  w-50 h-12 rounded-2xl bg-gray-200 ">
+                  <label for="general-fitness" class="w-18 h-4   text-xs font-semibold leading-3 font-montserrat text-left px-4 ml-2">General Fitness</label>
+                  <input type="checkbox" class="form-checkbox w-5 h-5 rounded-tl-xl  mr-4" id="general-fitness" />
+
+                </div>
+                <div class="flex justify-between  items-center  w-50 h-12 rounded-2xl bg-gray-200 ">
+                  <label for="event-training" class="w-18 h-4   text-xs font-semibold leading-3 font-montserrat text-left px-4 ml-2">Event - specific training</label>
+                  <input type="checkbox" class=" form-checkbox w-5 h-5  rounded-tl-xl  mr-4" id="event-training" />
+
+                </div>
+                <div class="flex justify-between  items-center  w-50 h-12 rounded-2xl bg-gray-200  ">
+                  <label for="mindfulness" class="w-18 h-4   text-xs font-semibold leading-3 font-montserrat text-left px-4 ml-2">Mindfulness and Mental Health</label>
+                  <input type="checkbox" class="form-checkbox w-5 h-5 rounded-tl-xl  mr-4" id="mindfulness" />
+
+                </div>
+              </div>
+              <button id = "navigateBtn2"class="bg-gradient-to-r from-blue-300 to-blue-400 hover:from-blue-300 hover:to-blue-300 text-white font-bold py-2 px-4 rounded-xl w-full mb-2
+              h-12 md:w-343 md:h-50 md:rounded-tl-12 md:rounded-br-12 ">
+              Confirm
+          </button>
+
+           
+
+                
+
+
+        </div>
+    </div>
+    </div>
+    <script>
+      // Get the button element by its ID
+      const navigateBtn = document.getElementById('navigateBtn2');
+
+      // Add click event listener to the button
+      navigateBtn.addEventListener('click', function() {
+          // Navigate to the other screen (replace 'page4.html' with your desired page)
+          window.location.href = 'page6.html';
+      });
+  </script>
+</body>
+
+</html>
